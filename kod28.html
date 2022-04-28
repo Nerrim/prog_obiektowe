@@ -1,0 +1,29 @@
+<html>
+  <textarea rows="150" cols="40">
+  <html>
+  <head>
+   <script type="text/javascript">
+      function ciezarowka(marka_C,model_C,rocznik_C,przebieg_C)
+       {
+         this.marka = marka_C;
+         this.model = model_C;
+         this.rocznik = rocznik_C;
+         this.przebieg = przebieg_C
+        }
+      ciezarowka.prototype.wypisz = function ()  { alert(this.marka + ' ' + this.model+ ' ' + this.rocznik +  ' ' + this.przebieg); };
+      var tir1 = new ciezarowka("Mercedes", "Alcaras L", "2020", "15 698 km"); 
+      var tir2 = new ciezarowka('Scania', 'Seria R', '2004', '458 985 km');
+      tir1.wypisz(); 
+      tir2.wypisz();
+      document.write("Pierwsza ciezarowka" + " " + tir1.marka + " " + tir1.model + " " + tir1.rocznik + " " + tir1.przebieg + "<br>");
+      document.write("Drugi Tir"+" "+ tir2.marka + " " + tir2.model + " " + tir2.rocznik + " " + tir2.przebieg + "<br>");
+    </script>
+   </head>
+  
+ <body>
+  <br>
+  programowanie obiektowe
+  </body>
+</html>
+  </textarea>
+ </html>
