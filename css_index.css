@@ -62,8 +62,8 @@ a:hover {
   }
 
 #nzw {
-color: #ffffff;
-font-color: #ffffff;
+color: var(--color-white);
+font-color: var(--color-white);
 }
 
 @keyframes animate {
