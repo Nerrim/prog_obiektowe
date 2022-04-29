@@ -53,6 +53,13 @@ a {
     }
   }
 }
+a:hover {
+    border: 1px solid transparent;
+    background: var(--color-red) url(https://i.postimg.cc/wBXGXbWN/pixel.png); // 360px x 1080px
+    transition-delay: 0.8s;
+    background-size: 180px;
+    animation: animate var(--speed-fast) steps(8) forwards;
+  }
 @keyframes animate {
   0% {
     background-position-y: 0;
