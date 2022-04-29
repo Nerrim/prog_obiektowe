@@ -39,13 +39,13 @@ a {
   color: var(--color-white);
   trasnition: var(--speed-normal);
   border: 1px solid var(--color-red);
-  &:hover {
+  /* &:hover {
     border: 1px solid transparent;
     background: var(--color-red) url(https://i.postimg.cc/wBXGXbWN/pixel.png); // 360px x 1080px
     transition-delay: 0.8s;
     background-size: 180px;
     animation: animate var(--speed-fast) steps(8) forwards;
-  }
+  } */
   &:last-of-type {
     border: 1px solid var(--color-purple);
     &:hover {
