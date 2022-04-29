@@ -60,6 +60,8 @@ a:hover {
     background-size: 180px;
     animation: animate var(--speed-fast) steps(8) forwards;
   }
+p {color:white;}
+
 @keyframes animate {
   0% {
     background-position-y: 0;
