@@ -1,1 +1,19 @@
 #blok {font-size: 2cm; color:red;}
+
+a {
+ font-size: 18pt;
+ text-decoration: none; 
+}
+
+a:link {
+ color: blue;
+}
+
+a:visited {
+ color: green;
+}
+
+a:hover {
+ color: red;
+ text-decoration: underline;
+}

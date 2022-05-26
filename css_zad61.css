@@ -1,0 +1,63 @@
+/* Określenie oddzielnego formatowania dla każdego stanu odnośnika. */
+/*Normalne odnosniki*/
+A
+{
+font-size:24pt;
+text-decoration:none;
+}
+A:link
+{
+color:navy;
+}
+A:visited
+{
+color:green;
+}
+A:hover
+{
+color:rgb(120, 167, 222);
+text-decoration:underline;
+}
+/*Male odnosniki*/
+A.maly
+{
+font-size: 12pt;
+}
+A.maly:link
+{color:silver;;
+}
+A.maly:visited
+{
+color:yellow;
+}
+A.maly:hover
+{
+color:black;
+text-decoration:none;
+}
+A:active
+{
+color:silver;
+}
+
+/*Duze odnosniki*/
+A.duzy
+{
+font-size: 32pt;
+}
+A.duzy:link
+{color:rgb(229, 123, 146);;
+}
+A.duzy:visited
+{
+color:rgb(45, 190, 154);
+}
+A.duzy:hover
+{
+color:rgb(255, 35, 53);
+text-decoration:underline;
+}
+A:active
+{
+color:rgb(155, 0, 0);
+}

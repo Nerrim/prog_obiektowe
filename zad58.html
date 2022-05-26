@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title> ZADANIE 58 </title>
+        <style>
+            p {
+                font-family:'Arial';
+                padding: 3px;
+                font-style: italic;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ol type="1">
+            <li>
+                <h1>Co to są pseudoklasy?</h1> <br>
+                <p>CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych elementów dokumentu są to Pseudoklasy.</p>
+            </li>
+            <li>
+                <h1>Uwaga dotycząca dwukropka:</h1> <br>
+                <p>Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy selektorem a nazwą klasy.</p>
+            </li>
+            <li>
+                <h1>Tabela opisującą pseudoklasy.</h1> <br>
+                <p>
+                    <ul type="squircle">
+                        <li><b>A:link</b> => odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze odwiedzone.</li>
+                        <li><b>A:visited</b> => odpowiada za formatowanie hiperłącza już odwiedzonego.</li>
+                        <li><b>A:hover</b> => zmiany pewnych elementów po najechaniu na nie urządzeniem wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor lub element blokowy DIV.</li>
+                        <li><b>A:active</b> => pozwala nadać dowolne formatowanie elementowi po nakierowaniu na niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego zwolnieniem (odsyłacz aktywny => kliknięty).</li>
+                        <li><b>A:focus,</b> =>  jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był formatowany innym kolorem. Odsyłacz posiadający tzw fokus- zaznaczony przy poruszaniu się po dokumencie przy pomocy klawisza tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką reakcję przeglądarki, jakby dany odsyłacz został kliknięty.</li>
+                        <li><b>:lang</b> => formatowanie wielojęzykowych dokumentów.</li>
+                        <li><b>:first-child</b> => umożliwia określenie formatowania dla pierwszego dziecka wybranego elementu.</li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <h1>Zastosowanie pseudoklasy :active</h1> <br>
+                <p>
+                    <ol type="a">
+                        <li>można używać jako uzupełnienia definicji odnośników</li>
+                        <li>jako elementu poprawiającego czytelność formularzy.</li>
+                    </ol>
+                </p>
+             </li>
+            <li>
+                <h1>Przykłady (trzy) kodów definiowania pseudoklas (wraz z tematem)</h1>
+                <textarea cols="20" rows="30"; background-color="silver">
+                    Temat: Arkusz wykorzystujący :link oraz :visited pseudoklasy w połączeniu z selektorem
+                    A. Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu
+                    taki odnośnik będzie miał kolor zielony.
+                    A:link
+                    {
+                    color:red;
+                    }
+                    A:visited
+                    {
+                    color:green;
+                    }
+                </textarea> <br>
+
+                <textarea cols="20" rows="30"; background-color="silver">
+                    Temat: Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.
+                    A /* Definicja odsyłacza podstawowego*/
+                    {
+                    font-size:12pt;
+                    text-decoration:none;
+                    }
+                    A:link
+                    {
+                    color:navy;
+                    }
+                    A:visited
+                    {
+                    color:green;
+                    }
+                    A:hover
+                    {
+                    color:red;
+                    text-decoration:underline;
+                    }
+                </textarea> <br>
+
+                <textarea cols="20" rows="30"; background-color="silver">
+                    Temat: Zastosowanie :focus
+                    A:focus
+                    {
+                    color:braun;
+                    }
+                </textarea> <br>
+            </li>
+        </ol>
+    </body>
+</html>
